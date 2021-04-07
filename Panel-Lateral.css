@@ -1,0 +1,32 @@
+.MENU {
+						width: 60px;
+						height:80px;	
+						background: #ffbd15;
+						border-radius: 10px;
+						position: absolute;
+						top: 40%;
+						left: 0;
+						text-align: center;
+						transition: left 0.4s;}
+
+.checkbox:checked ~ .MENU {left: 39%;border-radius: 10px;}
+
+.left-panel {width: 40%;height: 100%;
+background: #95ffa3;
+           position: absolute;
+           top: 0;
+           left: -40%;
+           display: flex;
+						align-items: center;
+						justify-content: center;
+						transition: left 0.4s;}
+
+.checkbox:checked ~ .left-panel {left: 0;}
+.checkbox {display: none;}
+ul a {text-decoration: none;}
+ul {
+						list-style: none;
+						font-size: 2rem;
+						text-align: center;
+						margin: 1px;
+						top: 20px;}
