@@ -1,0 +1,129 @@
+body {margin:0px;white-space:nowrap;}
+
+#Cabecera {
+
+    background: #7fff83;/* Color verde */
+
+    display: flex;/* contrar */
+
+    justify-content: space-between;/* lados opuestos */
+
+    /* align-items: center; */}/* cabecera */
+
+#Logo {width: 520px;padding-right: 5px;padding-left: 5px;}
+
+#Menu {cursor: pointer;width: 59px;padding: 15px;}
+
+footer {background: #162415; color: #ffffff;margin: 0px;}
+
+#Ssa {height: 100%;width: 100%;}
+
+button {background: #7fff83;border-bottom-color: #7fff83;}
+
+#Flipa {height: 150px;align-items: center;}
+
+#CUERPO {/* Cuerpo de la carta */
+
+/* background: #ee6aff; */
+
+background: url('../Imagenes/fondo-negro.jpg');
+
+background-position: center center;
+
+background-repeat: no-repeat;
+
+background-attachment: fixed;
+
+background-size: cover;
+
+background-color: #464646;
+
+}
+
+padding-top: 35px;
+
+padding-bottom: 35px;
+
+	 	
+
+	
+
+  display: flex;
+
+  justificar-contenido: espacio-entre;
+
+  alinear-elementos: centro;
+
+  padding-left: 150px;
+
+  padding-right: 150px; 
+
+  }
+
+  
+
+.Gon {
+
+				/ * fondo: # ff1515;
+
+				alineación de texto: centro; 
+
+				ancho: 200px; 
+
+       desbordamiento: oculto; 
+
+       espacio en blanco: normal;
+
+         
+
+         relleno: 35px;
+
+         
+
+  background: while;
+
+  radio del borde: 50px;
+
+  caja-sombra: 0px 0 0px 3px # e6e5e9 * /
+
+  
+
+  
+
+  padding-right: 10px;
+
+  fondo: blanco;
+
+  radio del borde: 25px;
+
+  caja de sombra: 0px 0 0px 1px # e6e5e9;
+
+  fondo acolchado: 100px;
+
+  altura: 10px;
+
+  ancho: 100px;
+
+  
+
+  
+
+  
+
+  
+
+			}
+
+.Btn {
+
+					
+
+						radio de borde: 150px;
+
+						color del fondo del borde: # d915ff;
+
+						clip: automático;
+
+						
+
+}
