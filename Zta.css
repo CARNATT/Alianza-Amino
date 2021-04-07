@@ -1,0 +1,129 @@
+body {margin:0px;white-space:nowrap;}
+
+#Cabecera {
+
+    background: #7fff83;/* Color verde */
+
+    display: flex;/* contrar */
+
+    justify-content: space-between;/* lados opuestos */
+
+    /* align-items: center; */}/* cabecera */
+
+#Logo {width: 520px;padding-right: 5px;padding-left: 5px;}
+
+#Menu {cursor: pointer;width: 59px;padding: 15px;}
+
+footer {background: #162415; color: #ffffff;margin: 0px;}
+
+#Ssa {height: 100%;width: 100%;}
+
+button {background: #7fff83;border-bottom-color: #7fff83;}
+
+#Flipa {height: 150px;align-items: center;}
+
+#CUERPO {/* Cuerpo de la carta */
+
+/* background: #ee6aff; */
+
+background: url('../Imagenes/fondo-negro.jpg');
+
+background-position: center center;
+
+background-repeat: no-repeat;
+
+background-attachment: fixed;
+
+background-size: cover;
+
+background-color: #464646;
+
+}
+
+padding-top: 35px;
+
+padding-bottom: 35px;
+
+	 	
+
+	
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding-left: 150px;
+
+  padding-right: 150px; 
+
+  }
+
+  
+
+.Gon {
+
+				/* background: #ff1515;
+
+				text-align: center; 
+
+				width: 200px; 
+
+       overflow: hidden; 
+
+       white-space: normal;
+
+         
+
+         padding: 35px;
+
+         
+
+  background: while;
+
+  border-radius: 50px;
+
+  box-shadow: 0px 0 0px 3px #e6e5e9 */
+
+  
+
+  
+
+  padding-right: 10px;
+
+  background: white;
+
+  border-radius: 25px;
+
+  box-shadow: 0px 0 0px 1px #e6e5e9;
+
+  padding-bottom: 100px;
+
+  height: 10px;
+
+  width: 100px;
+
+  
+
+  
+
+  
+
+  
+
+			}
+
+.Btn {
+
+					
+
+						border-radius: 150px;
+
+						border-bottom-color: #d915ff;
+
+						clip: auto;
+
+						
+
+}
