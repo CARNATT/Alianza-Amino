@@ -13,7 +13,7 @@ button {background: #7fff83;border-bottom-color: #7fff83;}
 #CUERPO {/* Cuerpo de la carta */
 /* background: #ee6aff; */
 
-background: url('../Imagenes/fondo-negro.jpg');
+background: url('fondo-negro.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-attachment: fixed;
