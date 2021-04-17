@@ -1,129 +1,99 @@
-body {margin:0px;white-space:nowrap;}
 
-#Cabecera {
-
-    background: #7fff83;/* Color verde */
-
-    display: flex;/* contrar */
-
-    justify-content: space-between;/* lados opuestos */
-
-    /* align-items: center; */}/* cabecera */
-
-#Logo {width: 520px;padding-right: 5px;padding-left: 5px;}
-
-#Menu {cursor: pointer;width: 59px;padding: 15px;}
-
-footer {background: #162415; color: #ffffff;margin: 0px;}
-
-#Ssa {height: 100%;width: 100%;}
-
-button {background: #7fff83;border-bottom-color: #7fff83;}
-
-#Flipa {height: 150px;align-items: center;}
-
-#CUERPO {/* Cuerpo de la carta */
-
-/* background: #ee6aff; */
-
-background: url('../Imagenes/fondo-negro.jpg');
-
-background-position: center center;
-
-background-repeat: no-repeat;
-
-background-attachment: fixed;
-
-background-size: cover;
-
-background-color: #464646;
-
-}
-
-padding-top: 35px;
-
-padding-bottom: 35px;
-
-	 	
-
-	
-
-  display: flex;
-
-  justify-content: space-between;
-
-  align-items: center;
-
-  padding-left: 150px;
-
-  padding-right: 150px; 
-
-  }
-
-  
-
-.Gon {
-
-				/* background: #ff1515;
-
-				text-align: center; 
-
-				width: 200px; 
-
-       overflow: hidden; 
-
-       white-space: normal;
-
-         
-
-         padding: 35px;
-
-         
-
-  background: while;
-
-  border-radius: 50px;
-
-  box-shadow: 0px 0 0px 3px #e6e5e9 */
-
-  
-
-  
-
-  padding-right: 10px;
-
-  background: white;
-
-  border-radius: 25px;
-
-  box-shadow: 0px 0 0px 1px #e6e5e9;
-
-  padding-bottom: 100px;
-
-  height: 10px;
-
-  width: 100px;
-
-  
-
-  
-
-  
-
-  
-
-			}
-
-.Btn {
-
-					
-
-						border-radius: 150px;
-
-						border-bottom-color: #d915ff;
-
-						clip: auto;
 
 						
 
+        
+     
+        
+/* Pantalla de celular */
+#Y {width: 70px;left: 70px;}
+.A {list-style: none;}
+#Fl {color: #D0D0D0;}
+#Sl {color: #283038;}
+#Fll {color: #8080E0;}
+#Sll {color: #905060;}
+
+
+p {color: #ffffff;}/* Menú */
+#M {
+width: 40px; 
 }
+#Mm {
+						padding-bottom: 2px;padding-top: 3px;
+					  /* Creative Amino */
+						background: #607898;
+						color: #607898;
+						
+						border-left-color: #607898;
+						border-right-color: #607898;
+					  border-top-color: #607898;
+					  border-bottom-color: #607898;
+					  
+					  color: while;
+}
+#Menu {
+						background: #607898;
+						padding-left: 88%;
+}
+
+
+body {margin:0px;white-space:nowrap; background: #000000;}
+.Seccion {color: #ffffff;background: #aacaff;padding: 1px;
+padding-left: 20px;}
+.Seccionn {color: #ffffff;background: #aacaff;
+white-space: 20px;}						
+
+.Unoo {background: #aacaff;padding: 15px;
+		  	padding-left: 40px;padding-right: 40px;}			
+#Doss {
+		 background: url('esl.jpg')round;/* fondo de Flipa  */
+		 border-radius: 40px;
+		 text-align: center;
+		 padding-top: 50px;
+		 padding-bottom: 10px;}
+#Dosss {
+		 background: url('cra.jpg')round;/* fondo de Crea */
+		 border-radius: 40px;
+		 text-align: center;
+		 padding-top: 50px;
+		 padding-bottom: 10px;}
+.Tress {text-align-last: center;}
+.Cuarto {padding-bottom: 30px;padding-top: 30px;}
+#Un {/* Creative Amino */
+						background: #90C0B0;
+						color: #905060;
+						border-bottom-color: #90C0B0;
+						border-left-color: #90C0B0;
+						border-right-color: #90C0B0;
+					  border-top-color: #90C0B0;
+					  border-radius: 5px;
+					  color: while;}
+#Unn {/* Flipaclip_En_Español */
+						background: #ffffff;
+						color: black;
+						border-bottom-color: #ffffff;
+						border-left-color: #ffffff;
+						border-right-color: #ffffff;
+					  border-top-color: #ffffff;
+					  border-radius: 5px;
+					  color: while;}
+#Imag {width: 170px;align-self: center;border-radius: 20%;}
+#imag {width: 170px;align-self: center; 
+#Hon {padding-bottom: 700px;}
+}
+.Uno {
+						background: green;
+						padding-top: 5px;
+						padding-bottom: 5px;
+						white-space: 0px;
+						text-align: center;
+						border-radius: 70px;}
+
+li {list-style: none;}
+ul {display: flex;}
+footer {background: #162415; color: #ffffff;
+        align-content: left;
+        padding: 1px;
+        text-align: center;
+        margin: 0px;}
+        
