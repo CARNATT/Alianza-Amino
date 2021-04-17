@@ -1,0 +1,71 @@
+
+body {margin:0px;white-space:nowrap; background: #000000;}
+.Menu {	padding-left: 85%; color: #ffffff;	}
+
+
+.Unoo {
+			background: #aacaff;
+			display: flex;
+			padding: 7px;
+			padding-left: 20px;
+			padding-bottom: 20px;
+			padding-right: 20px;}
+			
+			
+			
+#Unoo {
+			background: #aacaff;
+			padding: 7px;
+			padding-left: 20px;
+			padding-bottom: 20px;
+			padding-right: 20px;}
+			
+.Doss {
+		 background: url('esl.jpg')round;/* fondo de Flipa  */
+		 border-radius: 40px;
+		 text-align: center;
+		 
+		 left: 50px;
+		 
+		 padding-top: 50px;
+		 padding-bottom: 50px;}
+
+.Seccion {color: #ffffff;
+background: #aacaff;
+padding: 1px;
+padding-left: 20px;
+}
+.Seccionn {color: #ffffff;
+background: #aacaff;
+display: flex;
+white-space: 20px;
+
+}
+
+p {color: #ffffff;}
+li {list-style: none;padding-right: 10%;
+text-align: center;
+
+}
+ul {display: flex; text-align: center;
+
+}
+
+
+
+button {
+						background: green;
+						color: red;
+						border-bottom-color: green;
+						border-left-color: green;
+						border-right-color: green;
+					  border-top-color: green;
+					  border-radius: 20px;
+}
+
+/* Pie de página */
+footer {background: #162415; color: #ffffff;
+   align-content: left;
+   padding: 1px;
+   text-align: center;
+   margin: 0px;}
