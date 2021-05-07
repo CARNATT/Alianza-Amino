@@ -1,6 +1,6 @@
 body {margin:0;white-space:nowrap; background: #0000e7;}
 
-@media (max-width: 1039px){
+
 						
 
 #M {width: 45px; }/* IMAGEN DE MENÚ */
@@ -130,5 +130,14 @@ a {color: #ffffff; text-decoration: none;}
 						color: #ff559e;
 }
 
+@media (min-width: 780px) and (max-width: 1024px){
+	section{color: red; padding: 20px;background: blue;}
+	
+}
+@media (min-width: 480px) and (max-width: 780px){
+	section{color: blue; padding: 20px;background: #85ff15;}
+}
+@media (max-width: 480px){
+	section{color: yellow; padding: 20px;background: #7b00ff;}
 }
 
