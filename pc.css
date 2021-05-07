@@ -1,7 +1,26 @@
 body {margin:0;white-space:nowrap; background: #0000e7;}
 
+@media (max-width: 1039px){
+						
 
-#Mm {/* ancho del botón */
+#M {width: 45px; }/* IMAGEN DE MENÚ */
+#MM {background: red;}
+#LISTA {
+        padding: 5px; background: green;}
+#BOT {
+		 border-radius: 30px;
+}
+
+header  {
+				position: fixed; justify-content: space-between;
+}
+
+
+
+/* ----------------BOTON DE MENÚ-------------------- */
+
+/* width: 100%; position: fixed; left: 100px */
+/* #Mm {/* ancho del botón 
 		background: #607898;
 		border-left-color: #607898;
 		border-right-color: #607898;
@@ -12,11 +31,9 @@ body {margin:0;white-space:nowrap; background: #0000e7;}
 		position: relative;
 		
 		}
-#M {width: 65px; }/* Tamaño de imagen del menú */
-#Menu {background: #607898;right: 100px;}
-header {width: 100%; position: fixed; left: 100px;}
-/* ----------------BOTON DE MENÚ-------------------- */
 
+#Menu {background: #607898;right: 100px;} */
+ 
 
 /* -------------- TEXTO DE LAS CARTAS ------------- */
 #Fl {color: #D0D0D0;} /* TÍTULO */
@@ -72,10 +89,7 @@ content {/* DE CARTAS */
 	
 	
 .Unoo {background: #aacaff;padding-top: 50px;padding-bottom: 50px;}
-.Cuarto {padding-bottom: 30px;padding-top: 30px;
-         
-
-}/*botón*/
+.Cuarto {padding-bottom: 30px;padding-top: 30px;}/*botón*/
        
 
 
@@ -88,11 +102,14 @@ content {/* DE CARTAS */
 	box-sizing: border-box;
 	border-radius: 5px;color: while;}/* boton Creative */
 
-#Unn {background: #ffffff;color: black;
+.Unn {background: #ffffff;color: black;
 	border-bottom-color: #ffffff;border-left-color: #ffffff;
 	border-right-color: #ffffff;border-top-color: #ffffff;
 	box-sizing: border-box;
-	border-radius: 5px;color: while;}/*Flipaclip_En_Español*/
+	border-radius: 5px;color: while;
+	
+	}
+	/*Flipaclip_En_Español*/
 
 
 
@@ -113,4 +130,5 @@ a {color: #ffffff; text-decoration: none;}
 						color: #ff559e;
 }
 
+}
 
