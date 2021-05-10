@@ -1,0 +1,205 @@
+body {margin:0;white-space:nowrap; background: #ffdfd4;}
+
+/* ----------VARIABLES-------------- */
+#Dividi_cajas {display: none;}
+/* ----------VARIABLES-------------- */
+
+
+
+
+
+
+/* ---------------CABECERA---------------- */
+header {padding: 40px; background: #ff00dd; }
+.BOTÓN_MOVIL {display: none;}
+.BOTÓN_PC {display: block;padding: 3px;
+}/* nuevo */
+.BOTÓN_PC,li {list-style: none;}
+.BOTÓN_PCU {display: flex;justify-content: space-around;}
+
+/* ---------------CABECERA---------------- */
+
+/* ---------------CARTAS------------------ */
+#FONDO_CARTA {
+						background: #512aff;
+						display: flex;
+						justify-content: space-around;
+						padding: 20px;
+						overflow: auto;
+						
+						
+						}
+
+
+
+
+
+/*  */
+#FLIPA-CARTA {/* carta de Flipaclip */
+		 background: url('../PÁG/esl.jpg')round;/* fondo de Flipa  */
+		 
+		 border-radius: 40px;
+		 text-align: center;
+		 padding-top: 50px;
+		 padding-left: 20px;
+		 padding-right: 20px;
+		 padding-bottom: 10px;
+		 box-sizing: border-box;
+		 justify-content: center;
+		 
+		 }
+
+#CREAT-CARTA {/* carta de Creative */
+		 background: url('../PÁG/cra.jpg')round;/* fondo de Crea */
+		 border-radius: 40px;
+		 text-align: center;
+		 padding-top: 50px;
+		 padding-left: 20px;
+		 padding-right: 20px;
+		 padding-bottom: 10px;
+		 box-sizing: border-box;
+		 justify-content: center;
+		 
+		 
+		 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font-display: swap; (en vigilancia)*/
+
+
+/* ---------------CARTAS------------------ */
+
+/* ----------------CARTAS DE COMUNIDAD--------------- */
+#Imag {width: 180px;align-self: center;border-radius: 20%;}
+#imag {width: 180px;align-self: center; }
+/* ----------------CARTAS DE COMUNIDAD--------------- */
+
+/* -------------- TEXTO DE LAS CARTAS ------------- */
+#Fl {color: #D0D0D0;overflow: scroll;} /* TÍTULO flipa*/
+#Sl {color: #283038;overflow: scroll;}/* SUBTÍTULO */
+#Fll{color: #8080E0;overflow: scroll;}/* TÍTULO creat*/
+#Sll{color: #905060;overflow: scroll;
+
+
+
+
+
+
+}/* SUBTÍTULO */
+/* -------------- TEXTO DE LAS CARTAS ------------- */
+
+
+
+
+
+
+
+/* ---------------- PIE DE PÁG ------------------- */
+footer {background: #162415;padding: 1px;
+			 text-align: center;box-sizing: border-box;}
+#As {color: white;}
+a {color: #15cbff;}
+/* ---------------- PIE DE PÁG ------------------- */
+
+
+
+
+@media screen and (max-width: 480px) and (min-width: 300px){
+
+/* ----------VARIABLES-------------- */
+#Dividi_cajas {display: block;padding: 0px;}
+/* ----------VARIABLES-------------- */
+
+
+
+
+/* ---------------CABECERA---------------- */
+header {padding: 20px; background: #aacaff; }
+.BOTÓN_MOVIL {display: block;}
+.BOTÓN_PC {display: none;}
+/* ---------------CABECERA---------------- */
+
+
+
+#FONDO_CARTA {
+						background: #512aff;
+						display: grid;
+						justify-content: space-between;
+						justify-content: center;
+						padding: 10px;
+						box-sizing: border-box;
+						position: relative;
+						}
+
+
+
+
+
+
+/* ----------------CARTAS--------------- */
+#FLIPA-CARTA {/* carta de Flipaclip */
+		 background: url('../PÁG/esl.jpg')round;/* fondo de Flipa  */
+		 
+		 border-radius: 40px;
+		 text-align: center;
+		 padding-top: 50px;
+		 padding-left: 20px;
+		 padding-right: 20px;
+		 padding-bottom: 10px;
+		 box-sizing: border-box;
+		 justify-content: center;
+		 margin: 10px;
+		 }
+
+#CREAT-CARTA {/* carta de Creative */
+		 background: url('../PÁG/cra.jpg')round;/* fondo de Crea */
+		 border-radius: 40px;
+		 text-align: center;
+		 padding-top: 50px;
+		 padding-left: 20px;
+		 padding-right: 20px;
+		 padding-bottom: 10px;
+		 box-sizing: border-box;
+		 justify-content: center;
+		 margin: 10px;
+		 
+		 }
+
+/* ----------------CARTAS--------------- */
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------CARTAS DE COMUNIDAD--------------- */
+#Imag {width: 180px;align-self: center;border-radius: 20%;}
+#imag {width: 180px;align-self: center; }
+/* ----------------CARTAS DE COMUNIDAD--------------- */
+
+/* ---------------- PIE DE PÁG ------------------- */
+footer {background: #162415;padding: 1px;font-size: 12px;
+			 text-align: center;box-sizing: border-box;}
+#As {color: white;}
+a {color: #15cbff;}
+/* ---------------- PIE DE PÁG ------------------- */
+
+
+
+}/* Fin de versión móvil */
