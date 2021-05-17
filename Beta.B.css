@@ -1,98 +1,81 @@
 body {margin:0;white-space:nowrap; background: #ffdfd4;}
-
 /* color #29323A  versión 7.0*/
-@media screen and (max-width: 1000px) and (min-width: 600px){
+@media screen and (max-width: 1500px) and (min-width: 801px){
+/* ----------VARIABLES-------------- */
+.SECCIONES {overflow: scroll;padding: 20px;
+					 max-width: 400px;min-width: 300px;}
+		 
+#Oculto_Uno {display: none;}
+#chk:checked + #Oculto_Uno {display: block;}
+input {display: none;}
+		
+#Oculto_Dos {display: none;}
+#chkk:checked + #Oculto_Dos {display: block;}
 
+
+		 
+		 
+#CHABA {padding: 10px; background: red;}
+#chkk_D:checked + #CHABA {padding: 10px; background: green;}
 /* ----------VARIABLES-------------- */
-#Dividi_cajas {display: none;}
-/* ----------VARIABLES-------------- */
+
+
+
+
+					 
+
+
+
+/* ---------------CABECERA---------------- */
+
+header { display: none;padding: 40px; background: #b1ff95; }
+.BOTÓN_MOVIL {display: none; }
+.BOTÓN_PC {display: block;padding: 3px;}/* nuevo */
+.BOTÓN_PC,li {list-style: none;}
+.BOTÓN_PCU {display: flex;justify-content: space-around;}
+
+/* ---------------CABECERA---------------- */
+
+/* ---------------CARTAS------------------ */
+#FONDO_CARTA {background: #aacaff; padding: 25px; display: flex;
+						box-sizing: border-box;
+						justify-content: space-around;}
+						
+#FLIPA-CARTA {/* carta de Flipaclip */
+		 background: url('esl.jpg')round;/* fondo de Flipa  */
+		 border-radius: 40px;box-sizing: border-box;overflow: hidden;
+		 text-align: center;justify-content: center;
+		 padding-top: 50px;padding-bottom: 20px;
+		 padding-left: 20px;padding-right: 20px;
+		 max-width: 430px;max-height: 450px;
+		 min-width: 300px;min-height: 300px;}
+
+#CREAT-CARTA {/* carta de Creative */
+		 background: url('cra.jpg')round;/* fondo de Crea */
+		 border-radius: 40px;box-sizing: border-box;overflow: hidden;
+		 text-align: center;justify-content: center;
+		 padding-top: 50px;padding-bottom: 20px;
+		 padding-left: 20px;padding-right: 20px;
+		 max-width: 430px;max-height: 650px;
+		 min-width: 300px;min-height: 300px;}
+/* ---------------CARTAS------------------ */
+
+/* --------------------BOTONES_CARTAS------------------ */
 #Un {background: #90C0B0;color: #905060;
 	border-bottom-color: #90C0B0;border-left-color: #90C0B0;
 	border-right-color: #90C0B0;border-top-color: #90C0B0;
 	box-sizing: border-box;
 	border-radius: 5px;color: while;}/* boton Creative */
-
+	
 .Unn {background: #ffffff;color: black;
 	border-bottom-color: #ffffff;border-left-color: #ffffff;
 	border-right-color: #ffffff;border-top-color: #ffffff;
 	box-sizing: border-box;
-	border-radius: 5px;color: while;}/*Flipaclip_En_Español*/
-
-.SECCIONES {
- overflow: scroll;
- max-width: 400px;
- min-width: 300px;
- padding: 10px;
-}
-
-
-
-/* ---------------CABECERA---------------- */
-header {padding: 40px; background: #ff00dd; }
-.BOTÓN_MOVIL {display: none; }
-.BOTÓN_PC {display: block;padding: 3px;
-}/* nuevo */
-.BOTÓN_PC,li {list-style: none;}
-.BOTÓN_PCU {display: flex;justify-content: space-around;}
+	border-radius: 5px;color: while;}/*boton Flipaclip_En_Español*/
+	
 .Cuarto {padding-bottom: 20px;padding-top: 20px;}/*botón*/
-/* ---------------CABECERA---------------- */
+/* --------------------BOTONES_CARTAS------------------ */
 
-/* ---------------CARTAS------------------ */
-
-#FONDO_CARTA {
-						background: #aacaff;
-						display: flex;
-						justify-content: space-around;
-						padding: 20px;
-						overflow: hidden;
-						min-width: 300px;
-						
-						}
-/*  */
-#FLIPA-CARTA {/* carta de Flipaclip */
-		 background: url('esl.jpg')round;/* fondo de Flipa  */
-		 
-		 border-radius: 40px;box-sizing: border-box;
-		 text-align: center;justify-content: center;
-		 padding-top: 50px;padding-bottom: 20px;
-		 padding-left: 20px;padding-right: 20px;
-	   
-		 max-width: 430px;max-height: 450px;
-		 min-width: 300px;min-height: 300px;
-		 
-		 
-		 }
-
-#CREAT-CARTA {/* carta de Creative */
-		 background: url('cra.jpg')round;/* fondo de Crea */
-		 border-radius: 40px;box-sizing: border-box;
-		 text-align: center;justify-content: center;
-		 padding-top: 50px;padding-bottom: 20px;
-		 padding-left: 20px;padding-right: 20px;
-		 
-		 max-width: 430px;max-height: 450px;
-		 min-width: 300px;min-height: 300px;
-		 
-		 
-		 
-		 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* font-display: swap; (en vigilancia)*/
-
-
-/* ---------------CARTAS------------------ */
 
 /* ----------------CARTAS DE COMUNIDAD--------------- */
 #Imag {width: 180px;align-self: center;border-radius: 20%;}
@@ -101,10 +84,14 @@ header {padding: 40px; background: #ff00dd; }
 /* 
 /* -------------- TEXTO DE LAS CARTAS ------------- */
 #Fl {color: #D0D0D0;} /* TÍTULO flipa */
-#Sl {color: #283038;}/* SUBTÍTULO */
+#Sl {color: #000;}/* SUBTÍTULO */
 #Fll{color: #8080E0;}/* TÍTULO creat */
 #Sll{color: #905060;}/* SUBTÍTULO */
+.TEXT_COMP {max-width: 100%;max-height: 30px;
+					 min-width: 100%;min-height: 40px;overflow: auto;}
+.TEXT_COMP_EDIC {justify-content: center;}
 /* -------------- TEXTO DE LAS CARTAS ------------- */
+
 
 /* ---------------- PIE DE PÁG ------------------- */
 footer {background: #162415;padding: 1px;
@@ -112,24 +99,25 @@ footer {background: #162415;padding: 1px;
 #As {color: white;}
 a {color: #15cbff;text-decoration: none;}
 /* ---------------- PIE DE PÁG ------------------- */
-
-
 }
-@media screen and (max-width: 599px) and (min-width: 200px){
+
+
+
+@media screen and (max-width: 800px) and (min-width: 200px){
 
 /* ----------VARIABLES-------------- */
-#Dividi_cajas {display: block;padding: 0px;}
-/* ----------VARIABLES-------------- */
-.SECCIONES { 
+.SECCIONES { overflow: scroll;padding: 10px;
+					  max-width: 400px;min-width: 300px;}
  
- overflow: scroll;
- max-width: 400px;
- min-width: 300px;/* NUEVO */
- padding: 10px;  
- }
+/* ----------VARIABLES-------------- */
+
 /* ---------------CABECERA---------------- */
-header {padding: 20px; background: #7fd6ff; }
+.header {display: none;padding: 20px; background: #7fd6ff;}
 .BOTÓN_MOVIL {display: block;
+background: red;padding: 10px;
+						
+
+
 
 
 }
@@ -137,12 +125,17 @@ header {padding: 20px; background: #7fd6ff; }
 .BOTÓN_PC {display: none;}
 /* ---------------CABECERA---------------- */
 
+
 /* -------------- TEXTO DE LAS CARTAS ------------- */
 #Fl {color: #D0D0D0;} /* TÍTULO flipa */
-#Sl {color: #283038;}/* SUBTÍTULO */
+#Sl {color: #000;}/* SUBTÍTULO */
 #Fll{color: #8080E0;}/* TÍTULO creat */
 #Sll{color: #905060;}/* SUBTÍTULO */
+.TEXT_COMP {max-width: 100%;max-height: 30px;
+					 min-width: 100%;min-height: 40px;overflow: auto;}
+.TEXT_COMP_EDIC {justify-content: center;}
 /* -------------- TEXTO DE LAS CARTAS ------------- */
+
 
 /* -------------- TEXTO DE LAS CARTAS ------------- */
 #Un {background: #90C0B0;color: #905060;
@@ -155,27 +148,17 @@ header {padding: 20px; background: #7fd6ff; }
 	border-bottom-color: #ffffff;border-left-color: #ffffff;
 	border-right-color: #ffffff;border-top-color: #ffffff;
 	box-sizing: border-box;
+	
 	border-radius: 5px;color: while;}/*Flipaclip_En_Español*/
 
 
-
-
-#FONDO_CARTA {
-						background: #aacaff;
-						display: grid;
-						justify-content: space-between;
-						justify-content: center;
-						padding: 10px;
-						box-sizing: border-box;
-						overflow: hidden;
-						
-						}
-
-
-
-
-
 /* ----------------CARTAS--------------- */
+
+#FONDO_CARTA {background: #aacaff;padding: 10px;overflow: hidden;
+						display: grid;box-sizing: border-box;
+						justify-content: space-between;}
+
+
 #FLIPA-CARTA {/* carta de Flipaclip */
 		 background: url('esl.jpg')round;overflow: hidden;
 		 border-radius: 40px;
@@ -183,13 +166,8 @@ header {padding: 20px; background: #7fd6ff; }
 		 padding-top: 50px;padding-left: 30px;
 		 padding-right: 30px;padding-bottom: 40px;
 		 justify-content: center;
-		 max-width: 430px;max-height: 450px;
-		 min-width: 300px;min-height: 300px;
-		 
-		 
-		 
-		
-		 }/* NUEVO */
+		 max-width: 430px;max-height: 650px;
+		 min-width: 300px;min-height: 300px;}/* NUEVO */
 
 #CREAT-CARTA {/* carta de Creative */
 		 background: url('cra.jpg')round;overflow: hidden;
@@ -197,19 +175,47 @@ header {padding: 20px; background: #7fd6ff; }
 		 text-align: center;justify-content: center;
 		 padding-top: 50px;padding-bottom: 40px;
 		 padding-left: 30px;padding-right: 30px;
-		 max-width: 430px;max-height: 450px;
+		 max-width: 430px;max-height: 650px;
 		 min-width: 300px;min-height: 300px;}/* NUEVO */
+		 
+#Oculto_Uno {display: none;}
+#chk:checked + #Oculto_Uno {display: block;}
+input {display: none;}
+		 
+.LISTADO_UNO,li,a {
+	 list-style: none;
+}
+.LISTADO_UNO,li {
+				
+}
+		 
+		 
+		 
+		 
+#Oculto_Dos {display: none;}
+#chkk:checked + #Oculto_Dos {display: block;}
+input {display: none;}
+		 
+		 
+	
+		 
+		 
 /* ----------------CARTAS--------------- */
 
+/* ------------NAVEGACION FLIPACLIP---------------- */
 
 
+/* ------------NAVEGACION FLIPACLIP---------------- */
 
+
+@media(min-width: 480px){
+#FONDO_CARTA {background: #aacaff; padding: 10px; display: flex;
+						box-sizing: border-box;justify-content: space-around;}}
 
 /* ----------------CARTAS DE COMUNIDAD--------------- */
-#Imag {max-width: 180px;min-width: 100px;
-       align-self: center;border-radius: 20%;}
-#imag {max-width: 180px; min-width: 100px;align-self: center; }/*Nuevo*/
-.Cuarto {padding-bottom: 20px;padding-top: 20px;}/*botón*/
+#Imag {max-width: 180px;align-self: center;border-radius: 20%;}
+#imag {max-width: 175px;align-self: center;}
+.Cuarto {padding-bottom: 15px;padding-top: 20px;}/*botón*/
 /* ----------------CARTAS DE COMUNIDAD--------------- */
 
 /* ---------------- PIE DE PÁG ------------------- */
@@ -219,27 +225,5 @@ footer {background: #162415;padding: 1px;font-size: 12px;
 a {color: #15cbff; text-decoration: none;}
 /* ---------------- PIE DE PÁG ------------------- */
 
-
-
-.TEXT_COMP {
-				
-				background: red;
-				max-width: 430px;max-height: 50px;
-				min-width: 300px;min-height: 30px;
-				overflow: auto;
-				justify-content: center;
-				
-}
-.TEXT_COMP_EDIC {
-				
-				
-				
-}
-
-
 }/* Fin de versión móvil */
-@media screen and (max-width: 680px) and (min-width: 300px){
-
-
-
-}
+/* @media screen and (max-width: 680px) and (min-width: 300px){} */
