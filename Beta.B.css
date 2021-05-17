@@ -195,7 +195,7 @@ input {display: none;}
 #Oculto_Dos {display: none;}
 #chkk:checked + #Oculto_Dos {display: block;}
 input {display: none;}
-		 
+#BANEL {background: url('gracias.jpg')round;width: 100%;height: 250px;}
 		 
 	
 		 
