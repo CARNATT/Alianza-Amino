@@ -1,22 +1,48 @@
 body {margin:0;white-space:nowrap; background: #ffdfd4;}
 /* color #29323A  versión 7.0*/
 @media screen and (max-width: 1500px) and (min-width: 801px){
+
+
+
+/* ------pc------- */
+.SOLO_PARA_PC {display: block;text-align: center;background: red;
+						 padding: 20px;color: White;}
+.boton_solo_para {border-radius: 40px;padding: 15px;font-size: 30px;}
+
+
+
+
+
+
+
+
+.SOLO_PARA_PC_TEXTO {width: 100%;overflow: hidden;white-space: normal;}
+/* ------pc------- */
+
+
+
 /* ----------VARIABLES-------------- */
 .SECCIONES {overflow: scroll;padding: 20px;
 					 max-width: 400px;min-width: 300px;}
-		 
 /* -----+-+OCULTA------------ */
-input {display: none;}
 #Oculto_Uno {display: none;}
 #Oculto_Dos {display: none;}
 #Oculto_Tres {display: none;}
+input {display: none;}
 /* -----+-+OCULTA------------ */
-	
+
 /* ------------MOSTRAR------------- */
 #Ocultar_A:checked + #Oculto_Uno {display: block;}
 #Ocultar_B:checked + #Oculto_Dos {display: block;}
 #Ocultar_C:checked + #Oculto_Tres {display: block;}
 /* ------------MOSTRAR------------- */
+
+/* ----------------CARTAS DE COMUNIDAD--------------- */
+#Imag {max-width: 150px;align-self: center;border-radius: 20%;}
+#imag {max-width: 130px;align-self: center;}
+#Imagg{max-width: 170px;align-self: center;}
+.Cuarto {padding-bottom: 15px;padding-top: 20px;}/*botón*/
+/* ----------------CARTAS DE COMUNIDAD--------------- */
 
 
 
@@ -40,19 +66,22 @@ input {display: none;}
 
 
 /* ---------------CABECERA---------------- */
-
 header { display: none;padding: 40px; background: #b1ff95; }
 .BOTÓN_MOVIL {display: none; }
 .BOTÓN_PC {display: block;padding: 3px;}/* nuevo */
 .BOTÓN_PC,li {list-style: none;}
 .BOTÓN_PCU {display: flex;justify-content: space-around;}
-
 /* ---------------CABECERA---------------- */
 
+.OCULTR {display: none;}
+
 /* ---------------CARTAS------------------ */
-#FONDO_CARTA {background: #aacaff; padding: 25px; display: flex;
-						box-sizing: border-box;
-						justify-content: space-around;}
+#FONDO_CARTA {background: #aacaff;
+						 display: flex;
+						 padding: 30px;
+						 justify-content: space-between;
+						 display: none;
+						}
 						
 #OC_CARTA {/* carta de Flipaclip */
 		 background: url('Fondo_OC.png')round;
@@ -62,7 +91,7 @@ header { display: none;padding: 40px; background: #b1ff95; }
 		 padding-top: 50px;padding-left: 30px;
 		 padding-right: 30px;padding-bottom: 40px;
 		 justify-content: center;
-		 max-width: 430px;max-height: 650px;
+		 max-width: 430px;max-height: 450px;
 		 min-width: 300px;min-height: 300px;}/* NUEVO */
 						
 			
@@ -72,7 +101,7 @@ header { display: none;padding: 40px; background: #b1ff95; }
 		 text-align: center;justify-content: center;
 		 padding-top: 50px;padding-bottom: 20px;
 		 padding-left: 20px;padding-right: 20px;
-		 max-width: 430px;max-height: 650px;
+		 max-width: 430px;max-height: 450px;
 		 min-width: 300px;min-height: 300px;}
 
 #CREAT-CARTA {/* carta de Creative */
@@ -81,7 +110,7 @@ header { display: none;padding: 40px; background: #b1ff95; }
 		 text-align: center;justify-content: center;
 		 padding-top: 50px;padding-bottom: 20px;
 		 padding-left: 20px;padding-right: 20px;
-		 max-width: 430px;max-height: 650px;
+		 max-width: 430px;max-height: 450px;
 		 min-width: 300px;min-height: 300px;}
 /* ---------------CARTAS------------------ */
 
@@ -189,7 +218,7 @@ background: red;padding: 10px;}
 		 padding-top: 50px;padding-bottom: 40px;
 		 padding-left: 30px;padding-right: 30px;
 		 justify-content: center;
-		 max-width: 430px;max-height: 850px;
+		 max-width: 430px;max-height: 650px;
 		 min-width: 300px;min-height: 450px;}/* NUEVO */
 
 #FLIPA-CARTA {/* carta de Flipaclip */
@@ -217,9 +246,15 @@ background: red;padding: 10px;}
 
 
 
+/*  */
+.btn_completo {display: flex;justify-content: space-around;}
+#ESPARAA {display: none;}
+#ESPARAAa {display: none;}
+OOOKKK:checked + #ESPARAA {display: block;}
+OOOKK:checked + #ESPARAAa {display: block;}
 
 
-
+/*  */
 		 
 		 
 		 
@@ -228,20 +263,29 @@ background: red;padding: 10px;}
 #Oculto_Dos {display: none;}
 #Oculto_Tres {display: none;}
 /* -----+-+OCULTA------------ */
-	
+
 /* ------------MOSTRAR------------- */
 #Ocultar_A:checked + #Oculto_Uno {display: block;}
 #Ocultar_B:checked + #Oculto_Dos {display: block;}
 #Ocultar_C:checked + #Oculto_Tres {display: block;}
 /* ------------MOSTRAR------------- */
 
-
 /* ----------------CARTAS DE COMUNIDAD--------------- */
-#Imag {max-width: 180px;align-self: center;border-radius: 20%;}
-#imag {max-width: 175px;align-self: center;}
-#Imagg{max-width: 175px;align-self: center;}
+#Imag {max-width: 190px;align-self: center;border-radius: 20%;}
+#imag {max-width: 190px;align-self: center;}
+#Imagg{max-width: 200px;align-self: center;}
 .Cuarto {padding-bottom: 15px;padding-top: 20px;}/*botón*/
 /* ----------------CARTAS DE COMUNIDAD--------------- */
+
+/* ------pc------- */
+.SOLO_PARA_PC {display: none;}
+/* ------pc------- */
+/* ---------------- PIE DE PÁG ------------------- */
+footer {background: #162415;padding: 1px;font-size: 12px;
+			 text-align: center;box-sizing: border-box;}
+#As {color: white;}
+a {color: #15cbff; text-decoration: none;}
+/* ---------------- PIE DE PÁG ------------------- */
 
 
 
@@ -259,23 +303,3 @@ input {display: none;}
 
 /* ------------NAVEGACION FLIPACLIP---------------- */
 
-
-@media(min-width: 480px){
-#FONDO_CARTA {background: #aacaff; padding: 10px; display: flex;
-						box-sizing: border-box;justify-content: space-around;}}
-
-/* ----------------CARTAS DE COMUNIDAD--------------- */
-#Imag {max-width: 180px;align-self: center;border-radius: 20%;}
-#imag {max-width: 175px;align-self: center;}
-.Cuarto {padding-bottom: 15px;padding-top: 20px;}/*botón*/
-/* ----------------CARTAS DE COMUNIDAD--------------- */
-
-/* ---------------- PIE DE PÁG ------------------- */
-footer {background: #162415;padding: 1px;font-size: 12px;
-			 text-align: center;box-sizing: border-box;}
-#As {color: white;}
-a {color: #15cbff; text-decoration: none;}
-/* ---------------- PIE DE PÁG ------------------- */
-
-}/* Fin de versión móvil */
-/* @media screen and (max-width: 680px) and (min-width: 300px){} */
