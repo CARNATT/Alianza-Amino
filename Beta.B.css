@@ -181,7 +181,7 @@ background: red;padding: 10px;}
 #Sll{color: #905060;}/* SUBTÍTULO */
 #Flll {color: #CCCCCC;} /* TÍTULO flipa */
 #Slll {color: #fff;}/* SUBTÍTULO */
-.TEXT_COMP {max-width: 100%;max-height: 30px;overflow: auto
+.TEXT_COMP {max-width: 100%;max-height: 30px;overflow: autoo
 					 min-width: 100%;min-height: 40px;}
 .TEXT_COMP_EDIC {justify-content: center;}
 .Ocultool {display: none;}
@@ -248,10 +248,23 @@ background: red;padding: 10px;}
 
 /*  */
 .btn_completo {display: flex;justify-content: space-around;}
-#ESPARAA {display: none;}
-#ESPARAAa {display: none;}
-OOOKKK:checked + #ESPARAA {display: block;}
-OOOKK:checked + #ESPARAAa {display: block;}
+#historia_Q {display: block;}
+#ESPERA {display: none;}
+#ESPERAA {display: none;}
+#ESPERAAA{display: none;}
+
+
+#soy_u:checked + #ESPERA {display: block;}
+#soy_d:checked + #ESPERAA {display: block;}
+#soy_t:checked + #ESPERAAA {display: block;}
+
+#soy_uu:checked + #ESPERA {display: block;}
+#soy_dd:checked + #ESPERAA {display: block;}
+#soy_tt:checked + #ESPERAAA {display: block;}
+
+#soy_uuu:checked + #ESPERA {display: block;}
+#soy_ddd:checked + #ESPERAA {display: block;}
+#soy_ttt:checked + #ESPERAAA {display: block;}
 
 
 /*  */
@@ -265,7 +278,7 @@ OOOKK:checked + #ESPARAAa {display: block;}
 /* -----+-+OCULTA------------ */
 
 /* ------------MOSTRAR------------- */
-#Ocultar_A:checked + #Oculto_Uno {display: block;}
+#Ocultar_A:checked + #Oculto_Uno  {display: block;}
 #Ocultar_B:checked + #Oculto_Dos {display: block;}
 #Ocultar_C:checked + #Oculto_Tres {display: block;}
 /* ------------MOSTRAR------------- */
