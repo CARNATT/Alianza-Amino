@@ -1,5 +1,5 @@
 @media (max-width: 600px) {
-
+html {scroll-behavior: smooth;}
 content {
 	display: flex;
 	/* justify-content: center; */
