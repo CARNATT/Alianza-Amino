@@ -1,7 +1,7 @@
 
 body {margin:0px;white-space:nowrap; background: #000000;}
 .Menu {	padding-left: 85%; color: #ffffff;	}
-
+html {scroll-behavior: smooth;}
 
 .Unoo {
 			background: #aacaff;
